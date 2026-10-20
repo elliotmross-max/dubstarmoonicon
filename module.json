@@ -1,7 +1,7 @@
 {
   "id": "dubstarmoonicon",
   "name": "DubStarMooniCon",
-  "description": "Two-oscillator subharmonic voice: 3-limit dividers, five band-limited waveforms, resonant SVF filter, ADSR with aftertouch release.",
+  "description": "Two-oscillator subharmonic voice: 3-limit dividers, five band-limited waveforms, resonant SVF filter, ADSR.",
   "author": "Moongriffin",
   "component_type": "sound_generator",
   "github_repo": "elliotmross-max/dubstarmoonicon",
