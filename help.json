@@ -1,0 +1,113 @@
+{
+  "title": "DubStarMooniCon",
+  "children": [
+    {
+      "title": "Overview",
+      "lines": [
+        "Two oscillators with",
+        "subharmonic dividers.",
+        "",
+        "VCO 1 is polyphonic",
+        "(4 voices). VCO 2 is",
+        "monophonic.",
+        "",
+        "Each oscillator has a",
+        "core and two taps that",
+        "divide it: 1:2, 1:3,",
+        "1:4, 1:6, 1:8, 1:9, 1:12.",
+        "",
+        "No tuning. Every pitch",
+        "control is a stepped",
+        "selector, so there is",
+        "nothing to set by ear."
+      ]
+    },
+    {
+      "title": "Playing",
+      "lines": [
+        "Root page knobs:",
+        "Cutoff, Resonance,",
+        "VCO 1, Sub 1, Sub 2,",
+        "VCO 2, Decay, Volume.",
+        "",
+        "Turn Sub 1 Level up to",
+        "hear the divided tap a",
+        "fifth below the core.",
+        "",
+        "The Filter page has the",
+        "cutoff envelope. It is 0",
+        "by default, so the filter",
+        "starts still -- raise it",
+        "and the cutoff moves with",
+        "each note."
+      ]
+    },
+    {
+      "title": "Pages",
+      "children": [
+        {
+          "title": "Osc 1 / Osc 2",
+          "lines": [
+            "Wave, the two Sub",
+            "Freqs, Octave, and the",
+            "three levels.",
+            "",
+            "Waves: Pulse, Pulse 25,",
+            "Saw, Tri, Sine. Saw and",
+            "both pulses are band-",
+            "limited, so they stay",
+            "clean at high pitch."
+          ]
+        },
+        {
+          "title": "Filter",
+          "lines": [
+            "Cutoff, Resonance,",
+            "Mode, Env Amount,",
+            "Attack, Decay,",
+            "VCA Attack, VCA Decay.",
+            "",
+            "Modes: Lowpass,",
+            "Bandpass, Highpass.",
+            "",
+            "Resonance past about",
+            "0.7 rings and sharpens",
+            "the tone."
+          ]
+        },
+        {
+          "title": "Tune",
+          "lines": [
+            "The two octave offsets,",
+            "Volume and Cutoff.",
+            "",
+            "Set VCO 2 an octave",
+            "below VCO 1 to have the",
+            "subharmonics land under",
+            "the played note."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Notes",
+      "lines": [
+        "There is no arpeggiator",
+        "and no internal",
+        "sequencer. Play it from",
+        "the pads or from Move's",
+        "own sequencer.",
+        "",
+        "The instrument can be",
+        "quiet compared with some",
+        "modules. That is its gain",
+        "structure, not a fault:",
+        "the levels are set so six",
+        "overlapping signals",
+        "cannot clip the filter.",
+        "Raise Volume if you want",
+        "more."
+      ]
+    }
+  ]
+}
