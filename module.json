@@ -4,7 +4,7 @@
   "abbrev": "DSM",
   "version": "1.1.0",
   "description": "Two-oscillator subharmonic voice: 3-limit dividers, five band-limited waveforms, resonant SVF filter, ADSR with aftertouch release.",
-  "author": "Moongriffin",
+  "author": "Elliot Ross",
   "dsp": "dsp.so",
   "api_version": 2,
   "component_type": "sound_generator",
