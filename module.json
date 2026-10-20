@@ -1,19 +1,12 @@
 {
   "id": "dubstarmoonicon",
   "name": "DubStarMooniCon",
-  "abbrev": "DSM",
-  "version": "1.1.0",
   "description": "Two-oscillator subharmonic voice: 3-limit dividers, five band-limited waveforms, resonant SVF filter, ADSR with aftertouch release.",
   "author": "Elliot Ross",
-  "dsp": "dsp.so",
-  "api_version": 2,
   "component_type": "sound_generator",
-  "capabilities": {
-    "audio_out": true,
-    "midi_in": true,
-    "midi_out": false,
-    "aftertouch": false,
-    "chainable": true,
-    "component_type": "sound_generator"
+  "github_repo": "elliotmross-max/dubstarmoonicon",
+  "default_branch": "main",
+  "asset_name": "dubstarmoonicon-module.tar.gz",
+  "min_host_version": "0.3.0"
   }
-}
+
