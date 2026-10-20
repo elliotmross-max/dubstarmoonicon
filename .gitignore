@@ -1,5 +1,7 @@
-* text=auto
-*.sh text eol=lf
-*.c text eol=lf
-*.h text eol=lf
-*.json text eol=lf
+build/
+dist/
+*.o
+*.so
+*.tar.gz
+.DS_Store
+._*
