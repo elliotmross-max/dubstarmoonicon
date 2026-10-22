@@ -350,13 +350,13 @@ void suborg_note_on(suborg_t *s, int note, float vel)
 {
     (void)vel;
     int idx = -1;
-    for (int i = 2; i < SUBORG_VOICES; i++) {
+    for (int i = 0; i < SUBORG_VOICES; i++) {
         if (!s->voice[i].active) { idx = i; break; }
     }
     if (idx < 0) {
         uint32_t oldest = 0xFFFFFFFFu;
-        idx = 2;
-        for (int i = 2; i < SUBORG_VOICES; i++) {
+        idx = 0;
+        for (int i = 0; i < SUBORG_VOICES; i++) {
             if (s->voice[i].age < oldest) { oldest = s->voice[i].age; idx = i; }
         }
     }
