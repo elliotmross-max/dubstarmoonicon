@@ -1,14 +1,23 @@
 {
   "id": "dubstarmoonicon",
   "name": "DubStarMooniCon",
-  "description": "Two-oscillator subharmonic voice: 3-limit dividers, five band-limited waveforms, resonant SVF filter, ADSR.",
+  "abbrev": "DSM",
+  "version": "1.1.3",
+  "description": "Two-oscillator subharmonic voice with optional polyphony. The first oscillator spreads across four voices, each with its own divider chain; the second stays monophonic for a stable low end. Eight stepped subharmonic taps in 3-limit ratios, five band-limited waveforms, a resonant state-variable filter and a per-voice ADSR. Pitch is set by stepped selectors only, so there is nothing to tune by ear.",
   "author": "Moongriffin",
+  "dsp": "dsp.so",
+  "api_version": 2,
   "component_type": "sound_generator",
   "github_repo": "elliotmross-max/dubstarmoonicon",
   "default_branch": "main",
   "asset_name": "dubstarmoonicon-module.tar.gz",
   "min_host_version": "0.3.0",
   "capabilities": {
-    "chainable": true
+    "audio_out": true,
+    "midi_in": true,
+    "midi_out": false,
+    "aftertouch": true,
+    "chainable": true,
+    "component_type": "sound_generator"
   }
 }
