@@ -7,6 +7,8 @@
   "github_repo": "elliotmross-max/dubstarmoonicon",
   "default_branch": "main",
   "asset_name": "dubstarmoonicon-module.tar.gz",
-  "min_host_version": "0.3.0"
+  "min_host_version": "0.3.0",
+  "capabilities": {
+    "chainable": true
   }
-
+}
