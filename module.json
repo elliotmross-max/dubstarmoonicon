@@ -2,7 +2,7 @@
   "id": "dubstarmoonicon",
   "name": "DubStarMooniCon",
   "abbrev": "DSM",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "Two-oscillator subharmonic voice with optional polyphony. The first oscillator spreads across four voices, each with its own divider chain; the second stays monophonic for a stable low end. Eight stepped subharmonic taps in 3-limit ratios, five band-limited waveforms, a resonant state-variable filter and a per-voice ADSR. Pitch is set by stepped selectors only, so there is nothing to tune by ear.",
   "author": "Moongriffin",
   "dsp": "dsp.so",
