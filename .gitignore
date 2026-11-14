@@ -5,3 +5,10 @@ dist/
 *.tar.gz
 .DS_Store
 ._*
+src/ds800_*
+src/moons800*
+src/probe.c
+src/ds800_*
+src/moons800*
+src/probe.c
+src/schwung_moons800.c
