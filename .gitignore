@@ -12,3 +12,7 @@ src/ds800_*
 src/moons800*
 src/probe.c
 src/schwung_moons800.c
+
+src/*ds800*
+src/*moons800*
+src/probe.c
