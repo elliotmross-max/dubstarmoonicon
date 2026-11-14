@@ -12,7 +12,7 @@ docker run --rm -v "$PWD":/w -w /w "$IMAGE" bash -lc '
   '"$CROSS"'gcc -O2 -Wall -Wextra -fPIC -shared -I vendor/schwung \
       -o build/pack/dsp.so src/schwung_dubstarmoonicon.c src/suborg.c -lm -lpthread
   '"$CROSS"'strip --strip-unneeded build/pack/dsp.so
-  cp module.json help.json build/pack/
+  cp module.json help.json LICENSE build/pack/
 '
 echo "built build/pack/"; ls -la build/pack/
 
